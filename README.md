@@ -12,7 +12,7 @@
 
 I'm **Lucas Brasil**, an **Information Systems** student at **UFV**. I'm on my way to becoming a **QA (Quality Assurance)** professional, so around here you'll find a lot more testing, validating, and "why did this break?" than huge projects — and that's fine, that's how you learn.
 
-Outside of code, you'll usually find me watching a football match — or occasionally quoting Geralt of Rivia.
+Outside of code, you'll usually find me watching a football match — or occasionally playing games.
 
 <p align="center">
   <img src="./terminal-status.svg" alt="lucas.status() terminal animation" width="620" />
