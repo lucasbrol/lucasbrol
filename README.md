@@ -2,7 +2,7 @@
 
 # Hey, I'm Lucas 👋
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=440&lines=Information+Systems+student+%40+UFV;Future+QA+Analyst;Learning+API+testing+every+day;Football+fan" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=C1233E&center=true&vCenter=true&width=440&lines=Information+Systems+student+%40+UFV;Future+QA+Analyst;Learning+API+testing+every+day;Flamengo+till+I+die+%F0%9F%94%B4%E2%9A%AB" alt="Typing SVG" />
 
 </div>
 
@@ -12,7 +12,7 @@
 
 I'm **Lucas Brasil**, an **Information Systems** student at **UFV**. I'm on my way to becoming a **QA (Quality Assurance)** professional, so around here you'll find a lot more testing, validating, and "why did this break?" than huge projects — and that's fine, that's how you learn.
 
-Outside of code, you'll usually find me watching a football match — or occasionally playing games.
+Outside of code, you'll usually find me watching a Flamengo match — win or lose, I'm there.
 
 <p align="center">
   <img src="./terminal-status.svg" alt="lucas.status() terminal animation" width="620" />
@@ -36,12 +36,12 @@ Outside of code, you'll usually find me watching a football match — or occasio
 
 ---
 
-### ⚽ Off the keyboard
+### 🔴⚫ Off the keyboard
 
-<img align="right" width="140" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gamedev/witcher/witcher-original.svg" onerror="this.style.display='none'" />
+<img align="right" width="120" src="./flamengo-icon.svg" alt="Flamengo crest" />
 
-- ⚽ Big football fan — rarely miss a matchday
-- 🐺 Every once in a while, a Witcher reference sneaks in
+- 🔴⚫ Flamengo fan, rarely miss a matchday
+- ⚽ Big football fan in general
 - 🧪 I enjoy breaking things on purpose to find bugs
 
 ---
@@ -50,7 +50,7 @@ Outside of code, you'll usually find me watching a football match — or occasio
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=lucasbrol&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=lucasbrol&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://streak-stats.demolab.com/?user=lucasbrol&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
