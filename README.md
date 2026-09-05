@@ -2,7 +2,7 @@
 
 # Hey, I'm Lucas 👋
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=440&lines=Information+Systems+student+%40+UFV;Future+QA+Analyst;Learning+API+testing+every+day;The+Witcher+fan+%F0%9F%90%BA" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=440&lines=Information+Systems+student+%40+UFV;Future+QA+Analyst;Learning+API+testing+every+day;Football+fan+%F0%9F%90%BA" alt="Typing SVG" />
 
 </div>
 
