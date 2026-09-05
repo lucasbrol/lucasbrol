@@ -40,12 +40,12 @@
       </text>
 
       <text x="42" y="170" opacity="0">
-        <tspan fill="#89b4fa">learning</tspan><tspan fill="#cdd6f4">: [</tspan><tspan fill="#a6e3a1">"Postman"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#a6e3a1">"SQL"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#a6e3a1">"Jira"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#a6e3a1">"Python"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#a6e3a1">"C"</tspan><tspan fill="#cdd6f4">],</tspan>
+        <tspan fill="#89b4fa">learning</tspan><tspan fill="#cdd6f4">: [</tspan><tspan fill="#a6e3a1">"Postman"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#a6e3a1">"SQL"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#a6e3a1">"Jira"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#a6e3a1">"Python"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#a6e3a1">"JS"</tspan><tspan fill="#cdd6f4">],</tspan>
         <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.3s" fill="freeze"/>
       </text>
 
       <text x="42" y="196" opacity="0">
-        <tspan fill="#89b4fa">off_duty</tspan><tspan fill="#cdd6f4">: [</tspan><tspan fill="#a6e3a1">"football"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#a6e3a1">"a bit of The Witcher"</tspan><tspan fill="#cdd6f4">]</tspan>
+        <tspan fill="#89b4fa">off_duty</tspan><tspan fill="#cdd6f4">: [</tspan><tspan fill="#a6e3a1">"football"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#a6e3a1">"Gamesr"</tspan><tspan fill="#cdd6f4">]</tspan>
         <animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.3s" fill="freeze"/>
       </text>
 
