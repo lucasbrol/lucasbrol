@@ -38,7 +38,7 @@ Outside of code, you'll usually find me watching a Flamengo match — win or los
 
 ### 🔴⚫ Off the keyboard
 
-<img align="right" width="120" src="./flamengo-icon.svg" alt="Flamengo crest" />
+<img align="right" width="120" src="./flamengo-icon.png" alt="Flamengo crest" />
 
 - 🔴⚫ Flamengo fan, rarely miss a matchday
 - ⚽ Big football fan in general
