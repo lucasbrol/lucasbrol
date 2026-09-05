@@ -1,35 +1,33 @@
 <div align="center">
 
-# Olá, eu sou o Lucas 👋
+# Hey, I'm Lucas 👋
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=440&lines=Estudante+de+Sistemas+de+Informa%C3%A7%C3%A3o+%40+UFV;Futuro+Analista+de+QA;Aprendendo+testes+de+API+todo+dia;Fã+de+The+Witcher+%F0%9F%90%BA" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=440&lines=Information+Systems+student+%40+UFV;Future+QA+Analyst;Learning+API+testing+every+day;The+Witcher+fan+%F0%9F%90%BA" alt="Typing SVG" />
 
 </div>
 
 ---
 
-### 🧭 Sobre mim
+### 🧭 About me
 
-Sou o **Lucas Brasil**, estudante de **Sistemas de Informação na UFV**. Estou trilhando o caminho para me tornar **QA (Quality Assurance)**, então por aqui você vai encontrar bem mais testes, validações e "por que isso quebrou?" do que projetos gigantes — e tudo bem, é assim que se aprende.
+I'm **Lucas Brasil**, an **Information Systems** student at **UFV**. I'm on my way to becoming a **QA (Quality Assurance)** professional, so around here you'll find a lot more testing, validating, and "why did this break?" than huge projects — and that's fine, that's how you learn.
 
-Quando não estou testando alguma API, provavelmente estou jogando **The Witcher** pela enésima vez.
+Outside of code, you'll usually find me watching a football match — or occasionally quoting Geralt of Rivia.
 
-```txt
-> lucas.status()
-{
-  formação: "Sistemas de Informação - UFV",
-  objetivo: "QA / Quality Assurance",
-  aprendendo: ["Postman", "Testes de API", "Boas práticas de QA"],
-  modo_atual: "estudando de dia, Kaer Morhen de noite"
-}
-```
+<p align="center">
+  <img src="./terminal-status.svg" alt="lucas.status() terminal animation" width="620" />
+</p>
 
 ---
 
-### 🧪 Ferramentas & tecnologias
+### 🧪 Tools & technologies
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="40" title="Postman"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="40" title="SQL"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" width="40" title="Jira"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" title="Python"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="40" title="C"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" title="JavaScript"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40" title="HTML"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="40" title="CSS"/>
@@ -38,25 +36,26 @@ Quando não estou testando alguma API, provavelmente estou jogando **The Witcher
 
 ---
 
-### 🎮 Fora do teclado
+### ⚽ Off the keyboard
 
-<img align="right" width="160" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gamedev/witcher/witcher-original.svg" onerror="this.style.display='none'" />
+<img align="right" width="140" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gamedev/witcher/witcher-original.svg" onerror="this.style.display='none'" />
 
-- 🐺 The Witcher é praticamente meu jogo de conforto
-- 🧪 Curto quebrar coisas de propósito pra achar bugs — é meio a mesma sensação de explorar um jogo até nos mínimos detalhes
+- ⚽ Big football fan — rarely miss a matchday
+- 🐺 Every once in a while, a Witcher reference sneaks in
+- 🧪 I enjoy breaking things on purpose to find bugs
 
 ---
 
 ### 📊 GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lucasbrol&show_icons=true&theme=tokyonight&hide_border=true&locale=pt-br" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lucasbrol&show_icons=true&theme=tokyonight&hide_border=true" />
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=lucasbrol&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-### 📫 Onde me encontrar
+### 📫 Find me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/lucasbrasil7/">
@@ -69,6 +68,6 @@ Quando não estou testando alguma API, provavelmente estou jogando **The Witcher
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=lucasbrol&style=flat&color=6C63FF&label=Visitas+no+perfil" />
+<img src="https://komarev.com/ghpvc/?username=lucasbrol&style=flat&color=6C63FF&label=Profile+views" />
 
 </div>
