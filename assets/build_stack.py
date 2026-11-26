@@ -24,6 +24,7 @@ PROJECTS = {
     "E": ("EventHub", "#fab387"),
     "D": ("E-commerce", "#cba6f7"),
     "U": ("Agenda UFV", "#94e2d5"),
+    "R": ("RideFleet", "#74c7ec"),
 }
 # Só marca um projeto quando o repositório mostra a ferramenta em uso
 # (planos futuros de um README não contam).
@@ -43,14 +44,14 @@ SECTIONS = [
         ("Postman", dv("postman"), ""),
         ("Jira", dv("jira"), "E"),
         ("Playwright", dv("playwright"), "F"),
-        ("Pytest", dv("pytest"), "PD"),
+        ("Pytest", dv("pytest"), "PDR"),
         ("Vitest", dv("vitest"), "F"),
-        ("Swagger", dv("swagger"), "P"),
+        ("Swagger", dv("swagger"), "PR"),
     ]),
     ("Languages", "", "#cba6f7", [
-        ("Python", dv("python"), "PALD"),
+        ("Python", dv("python"), "PALDR"),
         ("TypeScript", dv("typescript"), "PF"),
-        ("JavaScript", dv("javascript"), "U"),
+        ("JavaScript", dv("javascript"), "UR"),
         ("C", dv("c"), ""),
         ("PHP", dv("php"), "U"),
         ("HTML5", dv("html5"), "DU"),
@@ -69,33 +70,36 @@ SECTIONS = [
         ("Kaggle", dv("kaggle"), "L"),
     ]),
     ("Back-end & Data", "REST APIs · async ORM · spatial queries with PostGIS", "#89b4fa", [
-        ("FastAPI", dv("fastapi"), "P"),
-        ("Pydantic", si("pydantic"), "P"),
-        ("SQLAlchemy", si("sqlalchemy", "f38ba8"), "P"),
-        ("PostgreSQL", dv("postgresql"), "P"),
+        ("FastAPI", dv("fastapi"), "PR"),
+        ("Pydantic", si("pydantic"), "PR"),
+        ("SQLAlchemy", si("sqlalchemy", "f38ba8"), "PR"),
+        ("PostgreSQL", dv("postgresql"), "PR"),
         ("JWT", si("jsonwebtokens", "white"), "P"),
-        ("SQLite", dv("sqlite"), "AD"),
+        ("SQLite", dv("sqlite"), "ADR"),
         ("MySQL", si("mysql", "6a9fd4"), "D"),
         ("Django", si("django", "44b78b"), "D"),
         ("Node.js", dv("nodejs"), ""),
+        ("Redis", dv("redis"), "R"),
     ]),
-]
-# Última linha: duas seções lado a lado.
-SPLIT_ROW = [
     ("Mobile & Web", "", "#a6e3a1", [
         ("React Native", dv("react"), "P"),
         ("Expo", si("expo", "white"), "P"),
         ("OpenStreetMap", si("openstreetmap"), "P"),
-        ("React", dv("react"), "F"),
+        ("React", dv("react"), "FR"),
         ("Next.js", si("nextdotjs", "white"), "F"),
     ]),
-    ("DevOps & Tools", "", "#94e2d5", [
-        ("Docker", dv("docker"), "PD"),
+    ("DevOps & Observability", "containers · load balancing · metrics", "#94e2d5", [
+        ("Docker", dv("docker"), "PDR"),
+        ("Nginx", dv("nginx"), "R"),
+        ("Prometheus", dv("prometheus"), "R"),
+        ("Grafana", dv("grafana"), "R"),
         ("Git", dv("git"), ""),
         ("GitHub", si("github", "white"), ""),
         ("Actions", si("githubactions", "2088ff"), "F"),
     ]),
 ]
+# Última linha opcional com duas seções lado a lado (vazia por enquanto).
+SPLIT_ROW = []
 
 W = 840
 PAD = 24
@@ -160,7 +164,8 @@ def build():
             parts.append(tile(x0 + i * TILE_W, y + HEADER_H, label, url, prj, delay))
             delay += 0.05
         col += len(tools) + 1
-    y += HEADER_H + ROW_H
+    if SPLIT_ROW:
+        y += HEADER_H + ROW_H
 
     # Legenda
     legend = ['<text x="%d" y="%d" class="sub">used in →</text>' % (PAD + 4, y + 14)]

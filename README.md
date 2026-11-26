@@ -27,7 +27,7 @@ Outside of code, you'll usually find me watching a Flamengo match, win or lose.
 > Tools I've **actually used** in projects. This isn't a claim that I've mastered all of them: some I use every day, others I've only used in one project. The colored dots show where each one was used.
 
 <p align="center">
-  <img src="./assets/stack.svg" alt="Tools and technologies I've used: QA & Testing (Postman, Jira, Playwright, Pytest, Vitest, Swagger); Languages (Python, TypeScript, JavaScript, C, PHP, HTML5, CSS3); AI & Machine Learning (PyTorch, Hugging Face, scikit-learn, pandas, NumPy, Matplotlib, Jupyter, Streamlit, Gemini, Kaggle); Back-end & Data (FastAPI, Pydantic, SQLAlchemy, PostgreSQL/PostGIS, JWT, SQLite, MySQL, Django, Node.js); Mobile & Web (React Native, Expo, OpenStreetMap, React, Next.js); DevOps (Docker, Git, GitHub, GitHub Actions)" width="100%" />
+  <img src="./assets/stack.svg" alt="Tools and technologies I've used: QA & Testing (Postman, Jira, Playwright, Pytest, Vitest, Swagger); Languages (Python, TypeScript, JavaScript, C, PHP, HTML5, CSS3); AI & Machine Learning (PyTorch, Hugging Face, scikit-learn, pandas, NumPy, Matplotlib, Jupyter, Streamlit, Gemini, Kaggle); Back-end & Data (FastAPI, Pydantic, SQLAlchemy, PostgreSQL/PostGIS, JWT, SQLite, MySQL, Django, Node.js, Redis); Mobile & Web (React Native, Expo, OpenStreetMap, React, Next.js); DevOps & Observability (Docker, Nginx, Prometheus, Grafana, Git, GitHub, GitHub Actions)" width="100%" />
 </p>
 
 ---
@@ -100,6 +100,7 @@ Classifies microscope images of single cells as **leukemic (B-ALL) or normal** (
 
 | Project | What it is | Stack |
 |---|---|---|
+| 🚕 [**RideFleet**](https://github.com/lucasbrol/SIN142-RideFleet) | 👥 Ride-hailing service in a federation of apps (SIN 142 Distributed Systems, UFV). When it runs out of drivers it hands rides to other groups through an auction on a central server, and it takes rides from them the same way: Redis Streams queues, Lamport clock, distributed lock + saga, Nginx load balancer over 2 instances, Prometheus/Grafana metrics | FastAPI · PostgreSQL · Redis · Nginx · Prometheus · Grafana · React · Docker |
 | 🌐 [**portfolio**](https://github.com/lucasbrol/portfolio) | My portfolio, with an AI assistant that uses **RAG** to answer only from verified info about me, plus tests that check it doesn't make things up | Next.js · TypeScript · Gemini · Vitest · Playwright · GitHub Actions |
 | 🎟️ [**EventHub QA**](https://github.com/lucasbrol/Eventhub-qa-project) | End-to-end manual QA workflow: requirements, test scenarios and cases, execution, bug reports, retesting | Jira · Markdown |
 | 🛍️ [**LabDeProg**](https://github.com/lucasbrol/labdeprog) | 👥 Clothing e-commerce with auth and shopping cart | Django · MySQL · Pytest · Docker |
