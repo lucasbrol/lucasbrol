@@ -1,0 +1,127 @@
+<svg width="840" height="360" viewBox="0 0 840 360" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','Cascadia Code',Consolas,'Courier New',monospace">
+<style>
+.rg { fill-opacity:.32; stroke-width:1.6; }
+.rn { fill:#cdd6f4; font-size:10.5px; text-anchor:middle; paint-order:stroke; stroke:#181825; stroke-width:3px; }
+.st { animation: in .6s ease-out both; }
+.n  { font-size:13px; font-weight:700; fill:#11111b; text-anchor:middle; }
+.t1 { fill:#cdd6f4; font-size:13.5px; font-weight:700; }
+.t2 { fill:#a6adc8; font-size:11.5px; }
+.code { fill:#f9e2af; font-size:11.5px; }
+.leg { fill:#a6adc8; font-size:11px; }
+.flow { stroke-dasharray:4 6; animation: flow 1.2s linear infinite; }
+@keyframes in { from { opacity:0; transform: translateX(10px); } to { opacity:1; transform:none; } }
+@keyframes flow { to { stroke-dashoffset:-20; } }
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1e1e2e"/><stop offset="100%" stop-color="#181825"/></linearGradient>
+  <clipPath id="round"><rect width="840" height="360" rx="14"/></clipPath>
+  <clipPath id="map"><rect x="24" y="52" width="380" height="250" rx="10"/></clipPath>
+  <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#262637" stroke-width="1"/></pattern>
+</defs>
+
+<g clip-path="url(#round)">
+  <rect width="840" height="360" fill="url(#bg)"/>
+  <rect width="840" height="34" fill="#11111b"/>
+  <circle cx="20" cy="17" r="6" fill="#f38ba8"/><circle cx="40" cy="17" r="6" fill="#f9e2af"/><circle cx="60" cy="17" r="6" fill="#a6e3a1"/>
+  <text x="420" y="21" fill="#6c7086" font-size="12" text-anchor="middle">parkfinder — crowdsensed parking availability · TCC @ UFV</text>
+
+  <!-- ===== Mapa das regiões ===== -->
+  <g clip-path="url(#map)">
+    <rect x="24" y="52" width="380" height="250" fill="#181825"/>
+    <rect x="24" y="52" width="380" height="250" fill="url(#grid)"/>
+    <!-- ruas -->
+    <g fill="none" stroke="#313244" stroke-width="3" stroke-linecap="round">
+      <path d="M24 150 C120 140 200 175 404 160"/>
+      <path d="M190 52 C200 130 215 200 205 302"/>
+      <path d="M60 52 L150 302"/>
+      <path d="M404 90 C330 120 280 220 250 302"/>
+    </g>
+    <g transform="translate(24 52)">
+      <!-- Pioneiros -->
+      <polygon class="rg" points="0,0 170,0 165,95 120,135 0,120" fill="#a6e3a1" stroke="#a6e3a1">
+        <animate attributeName="fill" values="#a6e3a1;#a6e3a1;#f9e2af;#a6e3a1" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="stroke" values="#a6e3a1;#a6e3a1;#f9e2af;#a6e3a1" dur="9s" repeatCount="indefinite"/>
+      </polygon>
+      <!-- Primeiro de Maio -->
+      <polygon class="rg" points="170,0 380,0 380,130 262,128 165,95" fill="#f9e2af" stroke="#f9e2af">
+        <animate attributeName="fill" values="#f9e2af;#a6e3a1;#a6e3a1;#f9e2af" dur="11s" repeatCount="indefinite"/>
+        <animate attributeName="stroke" values="#f9e2af;#a6e3a1;#a6e3a1;#f9e2af" dur="11s" repeatCount="indefinite"/>
+      </polygon>
+      <!-- Luzia Augusta -->
+      <polygon class="rg" points="0,120 120,135 182,192 170,250 0,250" fill="#6c7086" stroke="#6c7086">
+        <animate attributeName="fill" values="#6c7086;#6c7086;#a6e3a1;#a6e3a1;#6c7086" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="stroke" values="#6c7086;#6c7086;#a6e3a1;#a6e3a1;#6c7086" dur="10s" repeatCount="indefinite"/>
+      </polygon>
+      <!-- Siderurgia -->
+      <polygon class="rg" points="262,128 380,130 380,250 170,250 182,192 252,178" fill="#f38ba8" stroke="#f38ba8">
+        <animate attributeName="fill" values="#f38ba8;#f9e2af;#f38ba8;#f38ba8" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stroke" values="#f38ba8;#f9e2af;#f38ba8;#f38ba8" dur="8s" repeatCount="indefinite"/>
+      </polygon>
+      <!-- Centro (destino) -->
+      <polygon class="rg" points="165,95 262,128 252,178 182,192 120,135" fill="#f9e2af" stroke="#f9e2af" fill-opacity=".5"/>
+
+      <text class="rn" x="72" y="58">Pioneiros</text>
+      <text class="rn" x="292" y="52">Primeiro de Maio</text>
+      <text class="rn" x="70" y="200">Luzia Augusta</text>
+      <text class="rn" x="300" y="212">Siderurgia</text>
+
+      <!-- relatos da multidão (pulsos) -->
+      <g fill="none" stroke="#cdd6f4" stroke-width="1.5">
+        <circle cx="95" cy="80" r="2"><animate attributeName="r" values="2;14" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="2.4s" repeatCount="indefinite"/></circle>
+        <circle cx="320" cy="90" r="2"><animate attributeName="r" values="2;14" dur="2.4s" begin=".8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="2.4s" begin=".8s" repeatCount="indefinite"/></circle>
+        <circle cx="300" cy="180" r="2"><animate attributeName="r" values="2;14" dur="2.4s" begin="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="2.4s" begin="1.6s" repeatCount="indefinite"/></circle>
+        <circle cx="80" cy="165" r="2"><animate attributeName="r" values="2;14" dur="2.4s" begin="1.1s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="2.4s" begin="1.1s" repeatCount="indefinite"/></circle>
+      </g>
+      <g fill="#cdd6f4"><circle cx="95" cy="80" r="2.5"/><circle cx="320" cy="90" r="2.5"/><circle cx="300" cy="180" r="2.5"/><circle cx="80" cy="165" r="2.5"/></g>
+
+      <!-- pino de destino no Centro -->
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 -6;0 0;0 -6" dur="1.8s" repeatCount="indefinite"/>
+        <path d="M190 148 c-9 0-15 7-15 15 0 11 15 24 15 24 s15-13 15-24 c0-8-6-15-15-15z" fill="#f38ba8" stroke="#11111b" stroke-width="1.5"/>
+        <circle cx="190" cy="162" r="5" fill="#11111b"/>
+      </g>
+      <!-- balão de chance -->
+      <g transform="translate(206 100)">
+        <rect width="112" height="40" rx="8" fill="#11111b" stroke="#f9e2af" stroke-width="1.2"/>
+        <text x="10" y="16" fill="#a6adc8" font-size="10.5">Centro · last 1h</text>
+        <text x="10" y="32" fill="#f9e2af" font-size="13" font-weight="700">medium · 58%</text>
+      </g>
+    </g>
+  </g>
+  <rect x="24.5" y="52.5" width="379" height="249" rx="10" fill="none" stroke="#313244"/>
+
+  <!-- legenda -->
+  <g transform="translate(26 324)">
+    <rect width="11" height="11" rx="2" fill="#a6e3a1"/><text x="17" y="10" class="leg">high ≥70%</text>
+    <rect x="98" width="11" height="11" rx="2" fill="#f9e2af"/><text x="115" y="10" class="leg">medium</text>
+    <rect x="176" width="11" height="11" rx="2" fill="#f38ba8"/><text x="193" y="10" class="leg">low &lt;40%</text>
+    <rect x="270" width="11" height="11" rx="2" fill="#6c7086"/><text x="287" y="10" class="leg">n &lt; 5</text>
+  </g>
+
+  <!-- ===== Como funciona ===== -->
+  <text x="436" y="72" fill="#6c7086" font-size="12">// how it works</text>
+  <line x1="451" y1="104" x2="451" y2="304" stroke="#45475a" stroke-width="2" class="flow"/>
+
+  <g class="st" style="animation-delay:.2s">
+    <circle cx="451" cy="104" r="13" fill="#a6e3a1"/><text class="n" x="451" y="109">1</text>
+    <text class="t1" x="476" y="100">"Where are you going?"</text>
+    <text class="t2" x="476" y="118">driver picks a destination · Expo / React Native</text>
+  </g>
+  <g class="st" style="animation-delay:.6s">
+    <circle cx="451" cy="170" r="13" fill="#89b4fa"/><text class="n" x="451" y="175">2</text>
+    <text class="t1" x="476" y="166">FastAPI finds the region</text>
+    <text class="code" x="476" y="184">ST_Contains(region.geom, point)</text>
+  </g>
+  <g class="st" style="animation-delay:1s">
+    <circle cx="451" cy="236" r="13" fill="#f9e2af"/><text class="n" x="451" y="241">3</text>
+    <text class="t1" x="476" y="232">Availability index, in real time</text>
+    <text class="code" x="476" y="250">ID = yes / (yes + no) · window 1h</text>
+  </g>
+  <g class="st" style="animation-delay:1.4s">
+    <circle cx="451" cy="302" r="13" fill="#f38ba8"/><text class="n" x="451" y="307">4</text>
+    <text class="t1" x="476" y="298">Arrive &amp; report "did you park?"</text>
+    <text class="t2" x="476" y="316">every answer feeds the region's index</text>
+  </g>
+</g>
+<rect x="0.5" y="0.5" width="839" height="359" rx="14" fill="none" stroke="#313244"/>
+</svg>
